@@ -1,0 +1,26 @@
+{
+  "name": "melange-www",
+  "version": "1.0.0",
+  "description": "melange-www",
+  "scripts": {
+    "dev": "PORT=3000 nf start -j Procfile.dev",
+    "gulp": "gulp && gulp watch",
+    "start": "node index"
+  },
+  "private": true,
+  "author": "contact@melangepastrylab.com",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "pug": "^2.0.0-beta6",
+    "serve-favicon": "^2.3.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.17.5",
+    "foreman": "^2.0.0",
+    "gulp": "^3.9.1",
+    "gulp-express": "^0.3.5",
+    "gulp-plumber": "^1.1.0",
+    "gulp-pug": "^3.1.0"
+  }
+}

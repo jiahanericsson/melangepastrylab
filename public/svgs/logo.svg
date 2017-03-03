@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="100px" height="100px" viewBox="0 0 130 130" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.2 (33826) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard">
+            <path d="M65,109 C40.699471,109 21,89.300529 21,65 C21,40.699471 40.699471,21 65,21 C89.300529,21 109,40.699471 109,65 C109,89.300529 89.300529,109 65,109 L65,109 Z" id="Oval"></path>
+            <text id="melange" font-family="Helvetica-Light, Helvetica" font-size="26" font-weight="300" fill="#D0011B">
+                <textPath xlink:href="#Oval">
+                    <tspan x="63" y="54">melange</tspan>
+                </textPath>
+            </text>
+            <text id="pastry" font-family="Helvetica-Light, Helvetica" font-size="26" font-weight="300" fill="#D0011B">
+                <textPath xlink:href="#Oval">
+                    <tspan x="187" y="122">pastry</tspan>
+                </textPath>
+            </text>
+            <text id="lab" font-family="Helvetica-Light, Helvetica" font-size="26" font-weight="300" fill="#D0011B">
+                <textPath xlink:href="#Oval">
+                    <tspan x="7" y="117">lab</tspan>
+                </textPath>
+            </text>
+            <polygon id="Star" fill="#D0011B" points="103.608452 35 98.9061701 37.472136 99.8042261 32.236068 96 28.527864 101.257311 27.763932 103.608452 23 105.959593 27.763932 111.216904 28.527864 107.412678 32.236068 108.310734 37.472136"></polygon>
+            <polygon id="Star" fill="#D0011B" points="16.6084521 87 11.9061701 89.472136 12.8042261 84.236068 9 80.527864 14.2573111 79.763932 16.6084521 75 18.9595931 79.763932 24.2169043 80.527864 20.4126782 84.236068 21.3107341 89.472136"></polygon>
+            <polygon id="Star" fill="#D0011B" points="71.6084521 121 66.9061701 123.472136 67.8042261 118.236068 64 114.527864 69.2573111 113.763932 71.6084521 109 73.9595931 113.763932 79.2169043 114.527864 75.4126782 118.236068 76.3107341 123.472136"></polygon>
+            <circle id="Oval-2" stroke="#D0011B" stroke-width="2" cx="65" cy="65" r="62"></circle>
+        </g>
+    </g>
+</svg>

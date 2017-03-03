@@ -1,0 +1,53 @@
+.theme-two {
+  background-color: #3A405A;
+  color: #FFF;
+}
+
+.theme-three {
+  background-color: #4B516B;
+  color: #FFF;
+}
+
+.navbar.melange-navbar {
+  margin: 0;
+  border-radius: 0;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+
+.melange-navbar .glyphicon {
+  padding: 5px;
+}
+
+.section {
+  padding: 20px 0;
+  margin: 20px 0;
+}
+
+.section.last-section {
+  margin: 20px 0 0 0;
+}
+
+.social-icons .fa {
+  padding: 5px;
+}
+
+.navbar a, .social-icons a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.navbar a:hover, .social-icons a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.navbar a:visited, .social-icons a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.backgroundimg {
+    background: url(../images/frontimage.png);
+    opacity: 0.5;
+}
