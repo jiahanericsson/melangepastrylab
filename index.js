@@ -10,7 +10,7 @@ var imagesDir = path.join(publicDir, 'images');
 
 app.set('view engine', 'pug');
 app.set('port', process.env.PORT || 3000);
-app.use(favicon(path.join(imagesDir, 'favicon.png')));
+app.use(favicon(path.join(imagesDir, 'favicons/favicon-32x32.png')));
 app.use('/public', express.static('public'));
 
 app.get('/', (req, res) => {

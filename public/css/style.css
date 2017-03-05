@@ -1,5 +1,5 @@
 .theme-two {
-  background-color: #3A405A;
+  background-color: #000000;
   color: #FFF;
 }
 
@@ -21,11 +21,14 @@
 
 .section {
   padding: 20px 0;
-  margin: 20px 0;
+  /*margin: 20px 0;*/
 }
 
-.section.last-section {
-  margin: 20px 0 0 0;
+.section.footer-section {
+  /*margin: 20px 0 0 0;*/
+  position:absolute;
+  bottom:0;
+  width: 100%;
 }
 
 .social-icons .fa {
@@ -47,7 +50,7 @@
   text-decoration: inherit;
 }
 
-.backgroundimg {
-    background: url(../images/frontimage.png);
-    opacity: 0.5;
+.white-text {
+  color: white;
+  font-weight: lighter;
 }

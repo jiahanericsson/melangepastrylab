@@ -8,14 +8,15 @@ html(lang='en')
     meta(name='author', content='contact@melangepastrylab.com')
     title melange - #{title}
     link(href='public/css/bootstrap.min.css', rel='stylesheet')
-    link(href='public/css/melange.css', rel='stylesheet')
-  body
-    .navbar.melange-navbar
-      .container
-        .navbar-header.pull-left
-          a(href='/')
-            object(type='image/svg+xml', data='public/svgs/logo.svg')
-        .navbar-header.pull-right
-          a(href='https://melangepastrylab.com')
-            span visit
-            span.glyphicon.glyphicon.glyphicon-log-in
+    link(href='public/css/style.css', rel='stylesheet')
+  body(style='background-image:url(public/images/backgroundimage.png)')
+    .section
+      .navbar.melange-navbar
+        .container
+          .navbar-header.pull-left
+            a(href='/')
+              object(type='image/svg+xml', data='public/svgs/logo.svg')
+          .navbar-header.pull-right
+            a(href='https://melangepastrylab.com')
+              span visit
+              span.glyphicon.glyphicon.glyphicon-log-in
