@@ -11,12 +11,15 @@ html(lang='en')
     link(href='public/css/style.css', rel='stylesheet')
   body(style='background-image:url(public/images/backgroundimage.png)')
     .section
-      .navbar.melange-navbar
-        .container
-          .navbar-header.pull-left
+      .nav.navbar.melange-navbar
+          .white-text.text-center
+            a(href='https://melangepastrylab.com')
+              span about
+            a(href='/prices')
+              span treats
+            span(style='vertical-align:middle')
             a(href='/')
               object(type='image/svg+xml', data='public/svgs/logo.svg')
-          .navbar-header.pull-right
-            a(href='https://melangepastrylab.com')
-              span visit
-              span.glyphicon.glyphicon.glyphicon-log-in
+            span media
+            span contact
+            //span.glyphicon.glyphicon.glyphicon-log-in

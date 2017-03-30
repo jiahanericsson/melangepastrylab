@@ -17,6 +17,9 @@ app.get('/', (req, res) => {
   res.render('index');
 });
 
+app.get('/prices', (req, res) => {
+  res.render('prices');
+})
 var server = http.createServer(app);
 
 server.listen(app.get('port'), () => {
