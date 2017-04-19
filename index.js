@@ -17,11 +17,23 @@ app.get('/', (req, res) => {
   res.render('index');
 });
 
-app.get('/prices', (req, res) => {
-  res.render('prices');
-})
-var server = http.createServer(app);
+var pages = [
+  'products',
+  'products/macaron',
+  'products/tart',
+  'products/financier',
+  'products/madeleine',
+  'products/cookie',
+  'products/bonbon'
+];
 
+pages.forEach(page => {
+  app.get(`/${page}`, (req, res) => {
+    res.render(page);
+  })
+})
+
+var server = http.createServer(app);
 server.listen(app.get('port'), () => {
   console.log('Web server listening on port ' + app.get('port'));
 });
