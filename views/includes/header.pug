@@ -7,9 +7,9 @@ html(lang='en')
     meta(name='description', content='melange pastry lab')
     meta(name='author', content='contact@melangepastrylab.com')
     title melange - #{title}
-    link(href='public/css/bootstrap.min.css', rel='stylesheet')
-    link(href='public/css/style.css', rel='stylesheet')
-  body(style='background-image:url(public/images/background.png)')
+    link(href='/public/css/bootstrap.min.css', rel='stylesheet')
+    link(href='/public/css/style.css', rel='stylesheet')
+  body(style='background-image:url(/public/images/background.png)')
     nav.navbar.melange-navbar
       .white-text.text-center
         a(href='https://melangepastrylab.com')
@@ -18,7 +18,7 @@ html(lang='en')
           span treats
         span(style='vertical-align:middle')
         a(href='/')
-          object(type='image/svg+xml', data='public/images/svgs/logo.svg')
+          object(type='image/svg+xml', data='/public/images/svgs/logo.svg')
         span media
         span contact
         //span.glyphicon.glyphicon.glyphicon-log-in
