@@ -64,22 +64,23 @@ body {
 }
 
 .mg-navbar-item {
-  padding: 20px;
+  margin: 20px;
+}
+
+/*
+ * specify height and width since svg is loaded async
+ * and we don't want the page to jump.
+ */
+.logo {
+  height: 100px;
+  width: 100px;
 }
 
 /**
  * using this example
  * http://stackoverflow.com/a/36530130/3439
  */
-.logo {
-  height: 100px;
-  width: 100px;
-  vertical-align: middle;
-}
-
-.social-icon {
-  height: 40px;
-  width: 40px;
+.logo, .social-icon {
   vertical-align: middle;
 }
 
