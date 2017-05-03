@@ -2,6 +2,7 @@ var express = require('express');
 var http = require('http');
 var path = require('path')
 var favicon = require('serve-favicon');
+var fs = require('fs');
 
 var app = express();
 
@@ -24,13 +25,23 @@ var pages = [
   'products/financier',
   'products/madeleine',
   'products/cookie',
-  'products/bonbon'
+  'products/choux'
 ];
 
 pages.forEach(page => {
-  app.get(`/${page}`, (req, res) => {
-    res.render(page);
-  })
+  if (page !== 'products') {
+    var carouselDir = './public/images/jpgs/' + page.split('/')[1];;
+    fs.readdir(carouselDir, (err, files) => {
+      var jpgFiles = files.filter((file) => file.indexOf('jpg') > 0);
+      app.get(`/${page}`, (req, res) => {
+        res.render(page, { carouselImages: jpgFiles });
+      })
+    });
+  } else {
+    app.get(`/${page}`, (req, res) => {
+      res.render(page);
+    })
+  }
 })
 
 var server = http.createServer(app);

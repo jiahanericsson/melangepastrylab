@@ -1,0 +1,15 @@
+ul
+  each image in carouselImages
+    li= image
+
+//
+  div
+    .carousel.slide
+      .carousel-inner
+        .carousel-item.active
+        each image in carouselImages
+            .d-block.img-fluid(src= image, alt='asdf')
+
+
+
+//img(src='public/images/jpgs/macaron/macaron.jpg', style="max-height:250px").img-thumbnail
