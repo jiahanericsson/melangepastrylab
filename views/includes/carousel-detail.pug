@@ -9,10 +9,10 @@
     each image, index in carouselImages
       if index === 0
         .item.active
-          img(src='/public/images/jpgs/macaron/' + image)
+          img(src='/public/images/jpgs/' + product + '/' + image)
       else
         .item
-          img(src='/public/images/jpgs/macaron/' + image)
+          img(src='/public/images/jpgs/' + product + '/' + image)
   // Left and right controls
   a.left.carousel-control(href='#myCarousel', data-slide='prev')
     span.glyphicon.glyphicon-chevron-left

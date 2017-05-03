@@ -34,7 +34,10 @@ pages.forEach(page => {
     fs.readdir(carouselDir, (err, files) => {
       var jpgFiles = files.filter((file) => file.indexOf('jpg') > 0);
       app.get(`/${page}`, (req, res) => {
-        res.render(page, { carouselImages: jpgFiles });
+        res.render(page, {
+          carouselImages: jpgFiles,
+          product: page.split('/')[1]
+        });
       })
     });
   } else {
