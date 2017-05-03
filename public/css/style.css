@@ -63,6 +63,16 @@ body {
   text-decoration: inherit;
 }
 
+.mg-navbar-item {
+  padding: 20px;
+}
+
+.logo {
+  height: 100px;
+  width: 100px;
+  vertical-align: middle;
+}
+
 h1, h3 {
   text-align: center;
 }
