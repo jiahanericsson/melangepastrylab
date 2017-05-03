@@ -63,6 +63,27 @@ body {
   text-decoration: inherit;
 }
 
+.mg-navbar-item {
+  margin: 20px;
+}
+
+/*
+ * specify height and width since svg is loaded async
+ * and we don't want the page to jump.
+ */
+.logo {
+  height: 100px;
+  width: 100px;
+}
+
+/**
+ * using this example
+ * http://stackoverflow.com/a/36530130/3439
+ */
+.logo, .social-icon {
+  vertical-align: middle;
+}
+
 h1, h3 {
   text-align: center;
 }
