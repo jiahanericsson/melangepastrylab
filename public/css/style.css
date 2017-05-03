@@ -73,6 +73,12 @@ body {
   vertical-align: middle;
 }
 
+.social-icon {
+  height: 40px;
+  width: 40px;
+  vertical-align: middle;
+}
+
 h1, h3 {
   text-align: center;
 }
