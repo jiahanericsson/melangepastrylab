@@ -1,15 +1,22 @@
-ul
-  each image in carouselImages
-    li= image
-
-//
-  div
-    .carousel.slide
-      .carousel-inner
-        .carousel-item.active
-        each image in carouselImages
-            .d-block.img-fluid(src= image, alt='asdf')
-
-
-
-//img(src='public/images/jpgs/macaron/macaron.jpg', style="max-height:250px").img-thumbnail
+#myCarousel.carousel.slide(data-ride='carousel')
+  // Indicators
+  ol.carousel-indicators
+    li.active(data-target='#myCarousel', data-slide-to='0')
+    li(data-target='#myCarousel', data-slide-to='1')
+    li(data-target='#myCarousel', data-slide-to='2')
+  // Wrapper for slides
+  .carousel-inner
+    each image, index in carouselImages
+      if index === 0
+        .item.active
+          img(src='/public/images/jpgs/macaron/' + image)
+      else
+        .item
+          img(src='/public/images/jpgs/macaron/' + image)
+  // Left and right controls
+  a.left.carousel-control(href='#myCarousel', data-slide='prev')
+    span.glyphicon.glyphicon-chevron-left
+    span.sr-only Previous
+  a.right.carousel-control(href='#myCarousel', data-slide='next')
+    span.glyphicon.glyphicon-chevron-right
+    span.sr-only Next
