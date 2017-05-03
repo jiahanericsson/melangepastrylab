@@ -67,6 +67,10 @@ body {
   padding: 20px;
 }
 
+/**
+ * using this example
+ * http://stackoverflow.com/a/36530130/3439
+ */
 .logo {
   height: 100px;
   width: 100px;
